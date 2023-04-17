@@ -1,0 +1,59 @@
+{
+    "manifest_version": 3,
+    "name": "MyHeroAcademia",
+    "description": "Always over the limits! PLUS ULTRA!!!",
+    "version": "1.3",
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "developer":
+    {
+        "name": "antonio.frontino"
+    },
+	"mod":
+	{
+	    "schema_version": 1,
+		"payload":
+        {
+            "wallpaper":
+            {
+                "light":
+                {
+                    "image": "wallpaper/mha-icon.gif",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#cccccc"
+                },
+                "dark":
+                {
+                    "image": "wallpaper/mha-icon.gif",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#cccccc"
+                }
+            },
+            "background_music":
+            [
+                "music/mha-music.mp3",
+            ], 
+            "keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    "sounds/izuku-midoriya-smash-punch.mp3"
+                ],
+                "TYPING_ENTER":
+                [
+                    "sounds/all-mightdetroit-smash.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sounds/all-might-plus-ultra.mp3"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "sounds/all-might-laugh.mp3"
+                ]
+            },			  
+		}
+	}        
+}
